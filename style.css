@@ -1,0 +1,5 @@
+/* Custom CSS to troubleshoot hover issue */
+.nav-link:hover {
+  color: #4dc0b5; 
+  font-size: 2rem;
+}
