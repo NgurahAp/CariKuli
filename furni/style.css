@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1.8rem 7rem 0 7rem;
-  position: fixed; /* Mengubah posisi menjadi fixed */
+  /* position: fixed; Mengubah posisi menjadi fixed */
   top: 0;
   width: 100%; /* Menetapkan lebar 100% agar mengisi seluruh lebar layar */
   height: 5vh;
@@ -58,7 +58,7 @@ nav li a:hover {
 }
 
 .header-content {
-  padding: 7rem;
+  padding: 5rem 7rem 0 7rem;
   display: flex;
   align-items: center;
 }
@@ -71,8 +71,10 @@ nav li a:hover {
 .header-content p {
   padding-top: 2rem;
   padding-bottom: 4rem;
+  padding-right: 80px;
   font-size: 1.3rem;
   color: #c9d7dd;
+  text-align: justify;
 }
 
 .header-content button {
@@ -99,12 +101,11 @@ nav li a:hover {
 
 aside {
   display: flex;
-  justify-content: flex-end; /* Menggeser gambar ke sisi kanan */
 }
 
 aside img {
   height: auto;
-  width: 90%;
+  width: 100%;
 }
 
 main {
