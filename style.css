@@ -1,5 +1,23 @@
 /* Custom CSS to troubleshoot hover issue */
 .nav-link:hover {
-  color: #4dc0b5; 
+  color: #4dc0b5;
   font-size: 2rem;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 auto;
+  max-width: 300px;
+}
+
+/* Tambahkan ini di style.css atau di dalam tag <style> di dalam <head> */
+.card-img {
+  width: 100%;
+  height: 300px; /* Kamu bisa menyesuaikan tinggi ini sesuai kebutuhan */
+  object-fit: cover;
 }

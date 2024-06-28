@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Furni</title>
+    <style>
+      .card-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+      }
+
+      .card {
+        flex: 0 0 auto;
+      }
+    </style>
   </head>
   <body class="font-quicksand overflow-x-hidden">
     <!-- HEADER -->
@@ -53,14 +64,14 @@
     <body>
       <!-- Why CariKuli -->
       <div class="flex flex-col p-10 items-center h-screen">
-        <h1 class="text-5xl font-bold pt-10">Mengapa CariKuli.com?</h1>
+        <h1 class="text-5xl font-bold pt-10">Temukan Jasa Kulimu disini.</h1>
         <h1 class="text-3xl font-light pt-1 pb-20">
-          Berikut mengapa banyak pelanggan setia kepada kami:
+          Pilih dan isi formnya!
         </h1>
-        <div class="flex">
+        <div class="card-container">
           <!-- Card 1 -->
           <div
-            class="max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -104,7 +115,51 @@
           </div>
           <!-- Card 2 -->
           <div
-            class="max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
+            </a>
+            <div class="p-5 flex-1 flex flex-col">
+              <a href="#">
+                <h5
+                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Jasa tukang bangunan harian
+                </h5>
+              </a>
+              <p
+                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+              >
+                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
+                bersertifikat di bidang properti.
+              </p>
+              <a
+                href="/jasaKuli.html"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-auto"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 pl-1 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -148,7 +203,7 @@
           </div>
           <!-- Card 4 -->
           <div
-            class="max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -190,6 +245,51 @@
               </a>
             </div>
           </div>
+          <!-- Card 5 -->
+          <div
+            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
+            </a>
+            <div class="p-5 flex-1 flex flex-col">
+              <a href="#">
+                <h5
+                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Jasa tukang bangunan harian
+                </h5>
+              </a>
+              <p
+                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+              >
+                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
+                bersertifikat di bidang properti.
+              </p>
+              <a
+                href="/jasaKuli.html"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-auto"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 pl-1 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- More cards can be added here in the same format -->
         </div>
       </div>
     </body>
