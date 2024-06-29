@@ -13,10 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Furni</title>
     <style>
+      .nav-link:hover {
+        color: #4dc0b5;
+        font-size: 1.5rem;
+      }
       .card-container {
         display: flex;
         overflow-x: auto;
@@ -32,11 +35,45 @@
     <!-- HEADER -->
     <header id="header" class="bg-cover bg-center h-screen">
       <nav
-        class="flex justify-between items-center px-20 py-8 fixed top-0 w-full bg-transparent z-50"
+        class="flex justify-between items-center py-8 px-10 fixed top-0 w-full bg-gray-500 bg-opacity-50 z-50"
         data-aos="fade-down"
         data-aos-duration="1000"
       >
-        <h1 class="text-green-500 text-3xl font-bold">CariKuli</h1>
+        <h1 class="text-green-500 text-3xl font-bold">Cari Kuli</h1>
+        <ul class="flex space-x-4">
+          <li>
+            <a
+              data-scroll
+              href="index.html"
+              class="text-black text-2xl font-bold transition-all duration-300 ease-in-out nav-link px-10"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              data-scroll
+              href="jasaKuli.html"
+              class="text-black text-2xl font-bold transition-all duration-300 ease-in-out nav-link px-10"
+              >Kuli</a
+            >
+          </li>
+          <li>
+            <a
+              data-scroll
+              href="jasaDesign.html"
+              class="text-black text-2xl font-bold transition-all duration-300 ease-in-out nav-link px-10"
+              >Design</a
+            >
+          </li>
+          <li>
+            <a
+              data-scroll
+              href="furni.html"
+              class="text-black text-2xl transition-all font-bold ease-in-out nav-link px-10"
+              >Furniture</a
+            >
+          </li>
+        </ul>
       </nav>
 
       <div
@@ -63,15 +100,13 @@
 
     <body>
       <!-- Why CariKuli -->
-      <div class="flex flex-col p-10 items-center h-screen">
+      <div class="flex flex-col px-40 py-10 items-center h-screen">
         <h1 class="text-5xl font-bold pt-10">Temukan Jasa Kulimu disini.</h1>
-        <h1 class="text-3xl font-light pt-1 pb-20">
-          Pilih dan isi formnya!
-        </h1>
+        <h1 class="text-3xl font-light pt-1 pb-20">Pilih dan isi formnya!</h1>
         <div class="card-container">
           <!-- Card 1 -->
           <div
-            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -79,13 +114,13 @@
             <div class="p-5 flex-1 flex flex-col">
               <a href="#">
                 <h5
-                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                 >
                   Arifki
                 </h5>
               </a>
               <p
-                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
               >
                 Jasa tukang bangunan harian yang ahli dan berpengalaman juga
                 bersertifikat di bidang properti.
@@ -115,7 +150,7 @@
           </div>
           <!-- Card 2 -->
           <div
-            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -123,13 +158,13 @@
             <div class="p-5 flex-1 flex flex-col">
               <a href="#">
                 <h5
-                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                 >
                   Jasa tukang bangunan harian
                 </h5>
               </a>
               <p
-                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
               >
                 Jasa tukang bangunan harian yang ahli dan berpengalaman juga
                 bersertifikat di bidang properti.
@@ -159,7 +194,7 @@
           </div>
           <!-- Card 3 -->
           <div
-            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -167,13 +202,101 @@
             <div class="p-5 flex-1 flex flex-col">
               <a href="#">
                 <h5
-                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                 >
                   Jasa tukang bangunan harian
                 </h5>
               </a>
               <p
-                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
+              >
+                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
+                bersertifikat di bidang properti.
+              </p>
+              <a
+                href="/jasaKuli.html"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-auto"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 pl-1 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
+            </a>
+            <div class="p-5 flex-1 flex flex-col">
+              <a href="#">
+                <h5
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Jasa tukang bangunan harian
+                </h5>
+              </a>
+              <p
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
+              >
+                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
+                bersertifikat di bidang properti.
+              </p>
+              <a
+                href="/jasaKuli.html"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-auto"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 pl-1 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
+            </a>
+            <div class="p-5 flex-1 flex flex-col">
+              <a href="#">
+                <h5
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Jasa tukang bangunan harian
+                </h5>
+              </a>
+              <p
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
               >
                 Jasa tukang bangunan harian yang ahli dan berpengalaman juga
                 bersertifikat di bidang properti.
@@ -203,7 +326,7 @@
           </div>
           <!-- Card 4 -->
           <div
-            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
+            class="card max-w-xs bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4"
           >
             <a href="#">
               <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
@@ -211,13 +334,13 @@
             <div class="p-5 flex-1 flex flex-col">
               <a href="#">
                 <h5
-                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                 >
                   Jasa tukang bangunan harian
                 </h5>
               </a>
               <p
-                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 font-normal text-lg text-gray-700 dark:text-gray-400 flex-grow"
               >
                 Jasa tukang bangunan harian yang ahli dan berpengalaman juga
                 bersertifikat di bidang properti.
@@ -245,67 +368,53 @@
               </a>
             </div>
           </div>
-          <!-- Card 5 -->
-          <div
-            class="card max-w-sm bg-white border border-green-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col m-4 h-full"
-          >
-            <a href="#">
-              <img class="rounded-t-lg" src="kuliAssets/img1.png" alt="" />
-            </a>
-            <div class="p-5 flex-1 flex flex-col">
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Jasa tukang bangunan harian
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400 flex-grow"
-              >
-                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
-                bersertifikat di bidang properti.
-              </p>
-              <a
-                href="/jasaKuli.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-auto"
-              >
-                Read more
-                <svg
-                  class="rtl:rotate-180 pl-1 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <!-- More cards can be added here in the same format -->
         </div>
       </div>
-    </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/ba315d3bcc.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      var scroll = new SmoothScroll("a[data-scroll]", {
-        speed: 800, // Sesuaikan kecepatan animasi scroll di sini
-      });
-      AOS.init();
-    </script>
+      <!-- Footer -->
+      <footer class="bg-gray-800 text-white p-10">
+        <div class="container mx-auto flex justify-around">
+          <!-- Column 1: Contact Us -->
+          <div>
+            <h5 class="font-bold text-xl mb-4">Contact Us</h5>
+            <p>Phone: +62 123 456 789</p>
+            <p>Email: info@carikuli.com</p>
+            <p>Address: Jl. Kuli No. 123, Jakarta, Indonesia</p>
+          </div>
+          <!-- Column 2: Services -->
+          <div>
+            <h5 class="font-bold text-xl mb-4">Layanan Kami</h5>
+            <ul>
+              <li>
+                <a href="jasaKuli.html" class="text-white"
+                  >Jasa Tukang Bangunan Harian</a
+                >
+              </li>
+              <li>
+                <a href="jasaDesign.html" class="text-white">Design Interior</a>
+              </li>
+              <li><a href="furni.html" class="text-white">Furnitur</a></li>
+            </ul>
+          </div>
+          <!-- Column 3: Navigation -->
+          <div>
+            <h5 class="font-bold text-xl mb-4">Navigasi</h5>
+            <ul>
+              <li><a href="#header" class="text-white">Home</a></li>
+              <li><a href="jasaKuli.html" class="text-white">Kuli</a></li>
+              <li>
+                <a href="jasaDesign.html" class="text-white">Design Interior</a>
+              </li>
+              <li><a href="furni.html" class="text-white">Furniture</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
   </body>
 </html>
