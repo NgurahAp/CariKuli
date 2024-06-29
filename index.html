@@ -21,21 +21,21 @@
     <!-- HEADER -->
     <header
       id="header"
-      class="bg-cover bg-center h-screen"
+      class="bg-cover bg-center h-screen bg-gray-500 bg-opacity-75"
       style="background-image: url('kuliAssets/img3.jpg')"
     >
       <nav
-        class="flex justify-between items-center px-20 py-8 fixed top-0 w-full bg-transparent z-50"
+        class="flex justify-between items-center py-8 px-10 fixed top-0 w-full bg-gray-500 bg-opacity-50 z-50"
         data-aos="fade-down"
         data-aos-duration="1000"
       >
-        <h1 class="text-green-500 text-5xl font-bold">Cari Kuli</h1>
+        <h1 class="text-green-500 text-3xl font-bold">Cari Kuli</h1>
         <ul class="flex space-x-4">
           <li>
             <a
               data-scroll
               href="#header"
-              class="text-white text-3xl transition-all duration-300 ease-in-out nav-link"
+              class="text-black text-2xl font-bold transition-all duration-300 ease-in-out nav-link"
               >Kuli</a
             >
           </li>
@@ -43,7 +43,7 @@
             <a
               data-scroll
               href="furni.html"
-              class="text-white text-3xl transition-all duration-300 ease-in-out nav-link px-20"
+              class="text-black text-2xl transition-all font-bold ease-in-out nav-link px-20"
               >Furniture</a
             >
           </li>
@@ -63,312 +63,340 @@
       </div>
     </header>
 
-    <body>
-      <!-- Why CariKuli -->
-      <div class="flex flex-col p-10 items-center h-screen">
-        <h1 class="text-5xl font-bold pt-10">Mengapa CariKuli.com?</h1>
-        <h1 class="text-3xl font-light pt-1 pb-20">
+    <!-- Why CariKuli -->
+    <div class="flex flex-col p-10 items-center h-screen">
+      <h1 class="text-5xl font-bold pt-10">Mengapa CariKuli.com?</h1>
+      <h1 class="text-3xl font-light pt-1 pb-20">
+        Berikut mengapa banyak pelanggan setia kepada kami:
+      </h1>
+      <div>
+        <div class="flex">
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14l9-5-9-5-9 5 9 5z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14l9-5-9-5-9 5 9 5z"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Survei Gratis
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Survey Lokasi Gratis Jabodetabek. Memastikan pengerjaan sempurna.
+            </p>
+          </div>
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Hemat Biaya
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Biaya pemasangan baja ringan dalam paket lebih ekonomis
+              dibandingkan dengan yang lain
+            </p>
+          </div>
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <!-- Survey Icon -->
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Cepat, Kokoh, Rapih
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Instalasi dapat dilakukan dengan cepat dan ketelitian yang lebih
+              baik
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Penjadwalan Online
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Penjadwalan online untuk memungkinkan pelanggan untuk menjadwalkan
+              janji temu dengan tim kami.
+            </p>
+          </div>
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Sesuai Rencana
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Pemasangan dan rencana desain sesuai keinginan klien
+            </p>
+          </div>
+          <div
+            class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <!-- Survey Icon -->
+            <svg
+              class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
+              />
+            </svg>
+
+            <a href="#">
+              <h5
+                class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Profesional
+              </h5>
+            </a>
+            <p
+              class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
+            >
+              Kami memiliki Tenaga Kerja yang mempunyai sertifikat dan
+              berpengalaman.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Layanan Kami -->
+    <div style="height: 100vh">
+      <div class="flex flex-col pt-20 pl-4 items-center" style="height: 66vh">
+        <h1 class="text-green-500 text-7xl  font-bold pb-5">Layanan Kami</h1>
+        <h1 class="text-3xl font-light pb-20">
           Berikut mengapa banyak pelanggan setia kepada kami:
         </h1>
+        <!-- Container for cards -->
+        <div class="flex px-20">
+          <!-- Card 1 -->
+          <a
+            href="jasaKuli.html"
+            class="flex flex-col m-5 items-center bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <img
+              class="card-img object-cover w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
+              src="kuliAssets/card1.jpg"
+              alt=""
+            />
+            <div
+              class="flex flex-col justify-between p-4 leading-normal w-full"
+            >
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Jasa tukang bangunan harian
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Jasa tukang bangunan harian yang ahli dan berpengalaman juga
+                bersertifikat di bidang properti.
+              </p>
+            </div>
+          </a>
+          <!-- Card 2 -->
+          <a
+            href="jasaDesign.html"
+            class="flex flex-col items-center m-5 bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <img
+              class="card-img w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
+              src="kuliAssets/card2.jpg"
+              alt=""
+            />
+            <div
+              class="flex flex-col justify-between p-4 leading-normal w-full"
+            >
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Design Interior
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Jasa Ahli dan Berpengalaman untuk Renovasi Rumah, Ruko, Kafe,
+                dan Restoran
+              </p>
+            </div>
+          </a>
+          <!-- Card 3 -->
+          <a
+            href="furni.html"
+            class="flex flex-col items-center m-5 bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <img
+              class="card-img w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
+              src="kuliAssets/card3.jpg"
+              alt=""
+            />
+            <div
+              class="flex flex-col justify-between p-4 leading-normal w-full"
+            >
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Furnitur
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Estetika kontemporer dengan menggabungkan inovasi dan
+                fungsionalitas dalam setiap karya.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-gray-800 text-white p-10">
+      <div class="container mx-auto flex justify-around">
+        <!-- Column 1: Contact Us -->
         <div>
-          <div class="flex">
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+          <h5 class="font-bold text-xl mb-4">Contact Us</h5>
+          <p>Phone: +62 123 456 789</p>
+          <p>Email: info@carikuli.com</p>
+          <p>Address: Jl. Kuli No. 123, Jakarta, Indonesia</p>
+        </div>
+        <!-- Column 2: Services -->
+        <div>
+          <h5 class="font-bold text-xl mb-4">Layanan Kami</h5>
+          <ul>
+            <li>
+              <a href="jasaKuli.html" class="text-white"
+                >Jasa Tukang Bangunan Harian</a
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5z"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Survei Gratis
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Survey Lokasi Gratis Jabodetabek. Memastikan pengerjaan
-                sempurna.
-              </p>
-            </div>
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Hemat Biaya
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Biaya pemasangan baja ringan dalam paket lebih ekonomis
-                dibandingkan dengan yang lain
-              </p>
-            </div>
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <!-- Survey Icon -->
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cepat, Kokoh, Rapih
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Instalasi dapat dilakukan dengan cepat dan ketelitian yang lebih
-                baik
-              </p>
-            </div>
-          </div>
-          <div class="flex">
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Penjadwalan Online
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Penjadwalan online untuk memungkinkan pelanggan untuk
-                menjadwalkan janji temu dengan tim kami.
-              </p>
-            </div>
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Sesuai Rencana
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Pemasangan dan rencana desain sesuai keinginan klien
-              </p>
-            </div>
-            <div
-              class="max-w-sm p-6 m-10 bg-white border border-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-            >
-              <!-- Survey Icon -->
-              <svg
-                class="w-10 h-10 text-green-500 dark:text-gray-400 mb-3"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"
-                />
-              </svg>
-
-              <a href="#">
-                <h5
-                  class="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Profesional
-                </h5>
-              </a>
-              <p
-                class="mb-3 font-normal text-xl text-gray-500 dark:text-gray-400"
-              >
-                Kami memiliki Tenaga Kerja yang mempunyai sertifikat dan
-                berpengalaman.
-              </p>
-            </div>
-          </div>
+            </li>
+            <li>
+              <a href="jasaDesign.html" class="text-white">Design Interior</a>
+            </li>
+            <li><a href="furni.html" class="text-white">Furnitur</a></li>
+          </ul>
+        </div>
+        <!-- Column 3: Navigation -->
+        <div>
+          <h5 class="font-bold text-xl mb-4">Navigasi</h5>
+          <ul>
+            <li><a href="#header" class="text-white">Home</a></li>
+            <li><a href="furni.html" class="text-white">Furniture</a></li>
+          </ul>
         </div>
       </div>
-      <!-- Layanan Kami -->
-      <div style="height: 90vh">
-        <div class="flex flex-col pt-20 pl-4 items-center" style="height: 66vh">
-          <h1 class="text-green-500 text-7xl p-10 font-bold">Layanan Kami</h1>
-          <!-- Container for cards -->
-          <div class="flex px-20">
-            <!-- Card 1 -->
-            <a
-              href="jasaKuli.html"
-              class="flex flex-col m-5 items-center bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            >
-              <img
-                class="card-img object-cover w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
-                src="kuliAssets/card1.jpg"
-                alt=""
-              />
-              <div
-                class="flex flex-col justify-between p-4 leading-normal w-full"
-              >
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Jasa tukang bangunan harian
-                </h5>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Jasa tukang bangunan harian yang ahli dan berpengalaman juga
-                  bersertifikat di bidang properti.
-                </p>
-              </div>
-            </a>
-            <!-- Card 2 -->
-            <a
-              href="jasaDesign.html"
-              class="flex flex-col items-center m-5 bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            >
-              <img
-                class="card-img w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
-                src="kuliAssets/card2.jpg"
-                alt=""
-              />
-              <div
-                class="flex flex-col justify-between p-4 leading-normal w-full"
-              >
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Design Interior
-                </h5>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Jasa Ahli dan Berpengalaman untuk Renovasi Rumah, Ruko, Kafe,
-                  dan Restoran
-                </p>
-              </div>
-            </a>
-            <!-- Card 3 -->
-            <a
-              href="furni.html"
-              class="flex flex-col items-center m-5 bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            >
-              <img
-                class="card-img w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-t-lg"
-                src="kuliAssets/card3.jpg"
-                alt=""
-              />
-              <div
-                class="flex flex-col justify-between p-4 leading-normal w-full"
-              >
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Furnitur
-                </h5>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Estetika kontemporer dengan menggabungkan inovasi dan
-                  fungsionalitas dalam setiap karya.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <footer class="bg-gray-800 text-white p-10">
-        <div class="container mx-auto">
-          <p>&copy; 2023 CariKuli.com. All rights reserved.</p>
-        </div>
-            
-      </footer>
-    </body>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
     <script
